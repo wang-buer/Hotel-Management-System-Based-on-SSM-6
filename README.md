@@ -1,40 +1,72 @@
-# 基于SSM的酒店管理系统6
+# 基于SSM的酒店管理系统
 
-#### 介绍
+## 获取方式
+
+扫描下方，回复关键词  ： **酒店6**，获取完整版源码
+
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+## 1、项目介绍
+
 基于SSM的酒店管理系统6拥有两种角色，功能简单，适合技术学习
 
+1.1 用户端
+
+* 登录注册、客房预订、客房评论（编写评论和查看评论）
+
+1.2 管理员
+
+* 会员信息管理： 显示所有会员信息，可以删除相应的会员
+* 客房信息管理： 添加和删除客房类型，添加和删除客房，编辑客房信息，客房评论管理（未实现）
+* 预定信息管理： 查看和删除用户的预定信息
+* 入住信息管理： 添加入住信息，结账，结账后可以删除入住信息
+
+
+## 2、项目技术
+
+后端框架：SSM（Spring、SpringMVC、Mybatis）
+
+前端技术：Bootstrap、jsp、css、JavaScript、JQuery
+
+## 3、开发环境
+
+- JAVA版本：JDK1.8
+- IDE类型：IDEA、Eclipse都可运行
+- tomcat版本：Tomcat 7-10版本均可
+- 数据库类型：MySql（5.x和8.x版本都可） 
+- maven版本：无限制
+- 硬件环境：Windows 或者 Mac OS
+
+
+## 4、功能介绍
+
+### 4.1 登录
+
+![登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071843190.jpg)
+
+### 4.2 用户模块
+
+![前端首页](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071843762.jpg)
+
+![房屋详情](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071843479.jpg)
+
+### 4.3 管理员模块
+
+![管理员-入住管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071843999.jpg)
+
+![管理员-预订管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071843534.jpg)
+
+![管理员-房间管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071844429.jpg)
+
+![管理员-类型管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071844829.jpg)
+
+![管理员-会员信息管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202208071844776.jpg)
+
+## 5、获取方式
+
+扫描下方，回复关键词  ：**酒店6** ，获取完整版源码
 
 
 
-#### 软件架构
-软件架构说明
+![https://gitee.com/](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
